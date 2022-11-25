@@ -1,0 +1,17 @@
+{
+    "name": "canal",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "dependencies": {
+        "compressing": "^1.6.2",
+        "fs-extra": "^10.1.0",
+        "shelljs": "^0.8.5",
+        "zip-a-folder": "^1.1.5"
+    },
+    "author": "",
+    "license": "ISC"
+}
