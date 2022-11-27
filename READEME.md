@@ -5,6 +5,7 @@ canal 自动自动安装脚本 跨平台支持  win + linux
 ## 配置
 
 ```json
+
 {
     "taget_path": "D:/hzleaper_auto_install/canal",
     "inspect_mysql_config": {
