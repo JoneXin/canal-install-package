@@ -1,0 +1,42 @@
+2022-11-28 11:13:18.062 [main] INFO  c.a.o.c.i.spring.support.PropertyPlaceholderConfigurer - Properties resource not found: class path resource [pol_c/instance.properties] cannot be opened because it does not exist
+2022-11-28 11:13:18.256 [main] INFO  c.a.o.c.i.spring.support.PropertyPlaceholderConfigurer - Properties resource not found: class path resource [pol_c/instance.properties] cannot be opened because it does not exist
+2022-11-28 11:13:18.823 [main] INFO  c.a.otter.canal.instance.spring.CanalInstanceWithSpring - start CannalInstance for 1-pol_c 
+2022-11-28 11:13:18.828 [main] WARN  c.a.o.canal.parse.inbound.mysql.dbsync.LogEventConvert - --> init table filter : ^.*\..*$
+2022-11-28 11:13:18.828 [main] WARN  c.a.o.canal.parse.inbound.mysql.dbsync.LogEventConvert - --> init table black filter : 
+2022-11-28 11:13:18.831 [main] INFO  c.a.otter.canal.instance.core.AbstractCanalInstance - start successful....
+2022-11-28 11:13:18.834 [destination = pol_c , address = null , EventParser] ERROR c.a.o.c.p.inbound.mysql.rds.RdsBinlogEventParserProxy - parse events has an error
+com.alibaba.otter.canal.parse.exception.CanalParseException: illegal connection is null
+2022-11-28 11:13:19.077 [canal-instance-scan-0] INFO  c.a.otter.canal.instance.core.AbstractCanalInstance - stop CannalInstance for null-pol_c 
+2022-11-28 11:13:19.085 [canal-instance-scan-0] INFO  c.a.otter.canal.instance.core.AbstractCanalInstance - stop successful....
+2022-11-28 11:45:59.548 [main] INFO  c.a.o.c.i.spring.support.PropertyPlaceholderConfigurer - Properties resource not found: class path resource [pol_c/instance.properties] cannot be opened because it does not exist
+2022-11-28 11:45:59.714 [main] INFO  c.a.o.c.i.spring.support.PropertyPlaceholderConfigurer - Properties resource not found: class path resource [pol_c/instance.properties] cannot be opened because it does not exist
+2022-11-28 11:46:00.074 [main] INFO  c.a.otter.canal.instance.spring.CanalInstanceWithSpring - start CannalInstance for 1-pol_c 
+2022-11-28 11:46:00.079 [main] WARN  c.a.o.canal.parse.inbound.mysql.dbsync.LogEventConvert - --> init table filter : ^.*\..*$
+2022-11-28 11:46:00.079 [main] WARN  c.a.o.canal.parse.inbound.mysql.dbsync.LogEventConvert - --> init table black filter : 
+2022-11-28 11:46:00.085 [destination = pol_c , address = null , EventParser] ERROR c.a.o.c.p.inbound.mysql.rds.RdsBinlogEventParserProxy - parse events has an error
+com.alibaba.otter.canal.parse.exception.CanalParseException: illegal connection is null
+2022-11-28 11:46:00.094 [main] INFO  c.a.otter.canal.instance.core.AbstractCanalInstance - start successful....
+2022-11-28 11:46:00.301 [canal-instance-scan-0] INFO  c.a.otter.canal.instance.core.AbstractCanalInstance - stop CannalInstance for null-pol_c 
+2022-11-28 11:46:00.301 [pool-5-thread-1] ERROR com.alibaba.otter.canal.server.CanalMQStarter - process error!
+com.alibaba.otter.canal.server.exception.CanalServerException: destination:pol_c should start first
+2022-11-28 11:46:00.307 [canal-instance-scan-0] INFO  c.a.otter.canal.instance.core.AbstractCanalInstance - stop successful....
+2022-11-28 16:38:18.208 [main] INFO  c.a.o.c.i.spring.support.PropertyPlaceholderConfigurer - Properties resource not found: class path resource [pol_c/instance.properties] cannot be opened because it does not exist
+2022-11-28 16:38:18.371 [main] INFO  c.a.o.c.i.spring.support.PropertyPlaceholderConfigurer - Properties resource not found: class path resource [pol_c/instance.properties] cannot be opened because it does not exist
+2022-11-28 16:38:18.701 [main] INFO  c.a.otter.canal.instance.spring.CanalInstanceWithSpring - start CannalInstance for 1-pol_c 
+2022-11-28 16:38:18.713 [main] WARN  c.a.o.canal.parse.inbound.mysql.dbsync.LogEventConvert - --> init table filter : ^.*\..*$
+2022-11-28 16:38:18.713 [main] WARN  c.a.o.canal.parse.inbound.mysql.dbsync.LogEventConvert - --> init table black filter : 
+2022-11-28 16:38:18.718 [destination = pol_c , address = null , EventParser] ERROR c.a.o.c.p.inbound.mysql.rds.RdsBinlogEventParserProxy - parse events has an error
+com.alibaba.otter.canal.parse.exception.CanalParseException: illegal connection is null
+2022-11-28 16:38:18.727 [main] INFO  c.a.otter.canal.instance.core.AbstractCanalInstance - start successful....
+2022-11-28 16:38:18.892 [canal-instance-scan-0] INFO  c.a.otter.canal.instance.core.AbstractCanalInstance - stop CannalInstance for null-pol_c 
+2022-11-28 16:38:18.897 [canal-instance-scan-0] INFO  c.a.otter.canal.instance.core.AbstractCanalInstance - stop successful....
+2022-11-28 16:43:21.528 [main] INFO  c.a.o.c.i.spring.support.PropertyPlaceholderConfigurer - Properties resource not found: class path resource [pol_c/instance.properties] cannot be opened because it does not exist
+2022-11-28 16:43:21.697 [main] INFO  c.a.o.c.i.spring.support.PropertyPlaceholderConfigurer - Properties resource not found: class path resource [pol_c/instance.properties] cannot be opened because it does not exist
+2022-11-28 16:43:22.018 [main] INFO  c.a.otter.canal.instance.spring.CanalInstanceWithSpring - start CannalInstance for 1-pol_c 
+2022-11-28 16:43:22.023 [main] WARN  c.a.o.canal.parse.inbound.mysql.dbsync.LogEventConvert - --> init table filter : ^.*\..*$
+2022-11-28 16:43:22.023 [main] WARN  c.a.o.canal.parse.inbound.mysql.dbsync.LogEventConvert - --> init table black filter : 
+2022-11-28 16:43:22.029 [destination = pol_c , address = null , EventParser] ERROR c.a.o.c.p.inbound.mysql.rds.RdsBinlogEventParserProxy - parse events has an error
+com.alibaba.otter.canal.parse.exception.CanalParseException: illegal connection is null
+2022-11-28 16:43:22.038 [main] INFO  c.a.otter.canal.instance.core.AbstractCanalInstance - start successful....
+2022-11-28 16:43:22.211 [canal-instance-scan-0] INFO  c.a.otter.canal.instance.core.AbstractCanalInstance - stop CannalInstance for null-pol_c 
+2022-11-28 16:43:22.214 [canal-instance-scan-0] INFO  c.a.otter.canal.instance.core.AbstractCanalInstance - stop successful....

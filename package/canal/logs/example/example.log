@@ -1,0 +1,28 @@
+2022-11-28 11:13:19.066 [canal-instance-scan-0] INFO  c.a.otter.canal.instance.spring.CanalInstanceWithSpring - start CannalInstance for 1-example 
+2022-11-28 11:13:19.070 [canal-instance-scan-0] WARN  c.a.o.canal.parse.inbound.mysql.dbsync.LogEventConvert - --> init table filter : ^.*\..*$
+2022-11-28 11:13:19.070 [canal-instance-scan-0] WARN  c.a.o.canal.parse.inbound.mysql.dbsync.LogEventConvert - --> init table black filter : ^mysql\.slave_.*$
+2022-11-28 11:13:19.071 [canal-instance-scan-0] INFO  c.a.otter.canal.instance.core.AbstractCanalInstance - start successful....
+2022-11-28 11:13:19.151 [destination = example , address = /192.168.0.132:3306 , EventParser] WARN  c.a.o.c.p.inbound.mysql.rds.RdsBinlogEventParserProxy - ---> begin to find start position, it will be long time for reset or first position
+2022-11-28 11:13:19.151 [destination = example , address = /192.168.0.132:3306 , EventParser] WARN  c.a.o.c.p.inbound.mysql.rds.RdsBinlogEventParserProxy - prepare to find start position just show master status
+2022-11-28 11:13:19.838 [destination = example , address = /192.168.0.132:3306 , EventParser] WARN  c.a.o.c.p.inbound.mysql.rds.RdsBinlogEventParserProxy - ---> find start position successfully, EntryPosition[included=false,journalName=mysql-bin.000002,position=15660,serverId=1,gtid=,timestamp=1669335778000] cost : 681ms , the next step is binlog dump
+2022-11-28 11:46:00.256 [canal-instance-scan-0] INFO  c.a.otter.canal.instance.spring.CanalInstanceWithSpring - start CannalInstance for 1-example 
+2022-11-28 11:46:00.259 [canal-instance-scan-0] WARN  c.a.o.canal.parse.inbound.mysql.dbsync.LogEventConvert - --> init table filter : ^.*\..*$
+2022-11-28 11:46:00.259 [canal-instance-scan-0] WARN  c.a.o.canal.parse.inbound.mysql.dbsync.LogEventConvert - --> init table black filter : ^mysql\.slave_.*$
+2022-11-28 11:46:00.264 [canal-instance-scan-0] INFO  c.a.otter.canal.instance.core.AbstractCanalInstance - start successful....
+2022-11-28 11:46:00.367 [destination = example , address = /192.168.0.132:3306 , EventParser] WARN  c.a.o.c.p.inbound.mysql.rds.RdsBinlogEventParserProxy - ---> begin to find start position, it will be long time for reset or first position
+2022-11-28 11:46:04.870 [destination = example , address = /192.168.0.132:3306 , EventParser] WARN  c.a.o.c.p.inbound.mysql.rds.RdsBinlogEventParserProxy - prepare to find start position just last position
+ {"identity":{"slaveId":-1,"sourceAddress":{"address":"192.168.0.132","port":3306}},"postion":{"gtid":"","included":false,"journalName":"mysql-bin.000002","position":27297,"serverId":1,"timestamp":1669605245000}}
+2022-11-28 11:46:05.208 [destination = example , address = /192.168.0.132:3306 , EventParser] WARN  c.a.o.c.p.inbound.mysql.rds.RdsBinlogEventParserProxy - ---> find start position successfully, EntryPosition[included=false,journalName=mysql-bin.000002,position=27297,serverId=1,gtid=,timestamp=1669605245000] cost : 4835ms , the next step is binlog dump
+2022-11-28 16:38:18.876 [canal-instance-scan-0] INFO  c.a.otter.canal.instance.spring.CanalInstanceWithSpring - start CannalInstance for 1-example 
+2022-11-28 16:38:18.879 [canal-instance-scan-0] WARN  c.a.o.canal.parse.inbound.mysql.dbsync.LogEventConvert - --> init table filter : ^.*\..*$
+2022-11-28 16:38:18.879 [canal-instance-scan-0] WARN  c.a.o.canal.parse.inbound.mysql.dbsync.LogEventConvert - --> init table black filter : ^mysql\.slave_.*$
+2022-11-28 16:38:18.884 [canal-instance-scan-0] INFO  c.a.otter.canal.instance.core.AbstractCanalInstance - start successful....
+2022-11-28 16:38:18.941 [destination = example , address = /192.168.0.132:3306 , EventParser] WARN  c.a.o.c.p.inbound.mysql.rds.RdsBinlogEventParserProxy - ---> begin to find start position, it will be long time for reset or first position
+2022-11-28 16:43:22.192 [canal-instance-scan-0] INFO  c.a.otter.canal.instance.spring.CanalInstanceWithSpring - start CannalInstance for 1-example 
+2022-11-28 16:43:22.195 [canal-instance-scan-0] WARN  c.a.o.canal.parse.inbound.mysql.dbsync.LogEventConvert - --> init table filter : ^.*\..*$
+2022-11-28 16:43:22.195 [canal-instance-scan-0] WARN  c.a.o.canal.parse.inbound.mysql.dbsync.LogEventConvert - --> init table black filter : ^mysql\.slave_.*$
+2022-11-28 16:43:22.201 [canal-instance-scan-0] INFO  c.a.otter.canal.instance.core.AbstractCanalInstance - start successful....
+2022-11-28 16:43:22.256 [destination = example , address = /192.168.0.132:3306 , EventParser] WARN  c.a.o.c.p.inbound.mysql.rds.RdsBinlogEventParserProxy - ---> begin to find start position, it will be long time for reset or first position
+2022-11-28 16:43:26.758 [destination = example , address = /192.168.0.132:3306 , EventParser] WARN  c.a.o.c.p.inbound.mysql.rds.RdsBinlogEventParserProxy - prepare to find start position just last position
+ {"identity":{"slaveId":-1,"sourceAddress":{"address":"192.168.0.132","port":3306}},"postion":{"gtid":"","included":false,"journalName":"mysql-bin.000002","position":27297,"serverId":1,"timestamp":1669605245000}}
+2022-11-28 16:43:27.065 [destination = example , address = /192.168.0.132:3306 , EventParser] WARN  c.a.o.c.p.inbound.mysql.rds.RdsBinlogEventParserProxy - ---> find start position successfully, EntryPosition[included=false,journalName=mysql-bin.000002,position=27297,serverId=1,gtid=,timestamp=1669605245000] cost : 4804ms , the next step is binlog dump

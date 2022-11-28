@@ -1,0 +1,41 @@
+2022-11-28 11:13:16.916 [main] INFO  com.alibaba.otter.canal.deployer.CanalLauncher - ## set default uncaught exception handler
+2022-11-28 11:13:16.921 [main] INFO  com.alibaba.otter.canal.deployer.CanalLauncher - ## load canal configurations
+2022-11-28 11:13:17.157 [main] WARN  org.apache.kafka.clients.producer.ProducerConfig - The configuration 'kerberos.enable' was supplied but isn't a known config.
+2022-11-28 11:13:17.158 [main] WARN  org.apache.kafka.clients.producer.ProducerConfig - The configuration 'kerberos.krb5.file' was supplied but isn't a known config.
+2022-11-28 11:13:17.158 [main] WARN  org.apache.kafka.clients.producer.ProducerConfig - The configuration 'kerberos.jaas.file' was supplied but isn't a known config.
+2022-11-28 11:13:17.160 [main] INFO  com.alibaba.otter.canal.deployer.CanalStarter - ## start the canal server.
+2022-11-28 11:13:17.490 [main] INFO  com.alibaba.otter.canal.deployer.CanalController - ## start the canal server[127.0.0.1(127.0.0.1):11111]
+2022-11-28 11:13:18.833 [main] INFO  com.alibaba.otter.canal.deployer.CanalStarter - ## the canal server is running now ......
+2022-11-28 11:13:19.071 [canal-instance-scan-0] INFO  com.alibaba.otter.canal.deployer.CanalController - auto notify start example successful.
+2022-11-28 11:13:19.146 [canal-instance-scan-0] INFO  com.alibaba.otter.canal.deployer.CanalController - auto notify stop pol_c successful.
+2022-11-28 11:13:20.095 [kafka-producer-network-thread | producer-1] WARN  org.apache.kafka.clients.NetworkClient - [Producer clientId=producer-1] Error while fetching metadata with correlation id 1 : {pol_c=LEADER_NOT_AVAILABLE}
+2022-11-28 11:45:58.910 [main] INFO  com.alibaba.otter.canal.deployer.CanalLauncher - ## set default uncaught exception handler
+2022-11-28 11:45:58.915 [main] INFO  com.alibaba.otter.canal.deployer.CanalLauncher - ## load canal configurations
+2022-11-28 11:45:59.001 [main] WARN  org.apache.kafka.clients.producer.ProducerConfig - The configuration 'kerberos.enable' was supplied but isn't a known config.
+2022-11-28 11:45:59.003 [main] WARN  org.apache.kafka.clients.producer.ProducerConfig - The configuration 'kerberos.krb5.file' was supplied but isn't a known config.
+2022-11-28 11:45:59.003 [main] WARN  org.apache.kafka.clients.producer.ProducerConfig - The configuration 'kerberos.jaas.file' was supplied but isn't a known config.
+2022-11-28 11:45:59.004 [main] INFO  com.alibaba.otter.canal.deployer.CanalStarter - ## start the canal server.
+2022-11-28 11:45:59.177 [main] INFO  com.alibaba.otter.canal.deployer.CanalController - ## start the canal server[127.0.0.1(127.0.0.1):11111]
+2022-11-28 11:46:00.096 [main] INFO  com.alibaba.otter.canal.deployer.CanalStarter - ## the canal server is running now ......
+2022-11-28 11:46:00.265 [canal-instance-scan-0] INFO  com.alibaba.otter.canal.deployer.CanalController - auto notify start example successful.
+2022-11-28 11:46:00.350 [canal-instance-scan-0] INFO  com.alibaba.otter.canal.deployer.CanalController - auto notify stop pol_c successful.
+2022-11-28 16:38:17.568 [main] INFO  com.alibaba.otter.canal.deployer.CanalLauncher - ## set default uncaught exception handler
+2022-11-28 16:38:17.573 [main] INFO  com.alibaba.otter.canal.deployer.CanalLauncher - ## load canal configurations
+2022-11-28 16:38:17.664 [main] WARN  org.apache.kafka.clients.producer.ProducerConfig - The configuration 'kerberos.enable' was supplied but isn't a known config.
+2022-11-28 16:38:17.665 [main] WARN  org.apache.kafka.clients.producer.ProducerConfig - The configuration 'kerberos.krb5.file' was supplied but isn't a known config.
+2022-11-28 16:38:17.665 [main] WARN  org.apache.kafka.clients.producer.ProducerConfig - The configuration 'kerberos.jaas.file' was supplied but isn't a known config.
+2022-11-28 16:38:17.666 [main] INFO  com.alibaba.otter.canal.deployer.CanalStarter - ## start the canal server.
+2022-11-28 16:38:17.837 [main] INFO  com.alibaba.otter.canal.deployer.CanalController - ## start the canal server[127.0.0.1(127.0.0.1):11111]
+2022-11-28 16:38:18.729 [main] INFO  com.alibaba.otter.canal.deployer.CanalStarter - ## the canal server is running now ......
+2022-11-28 16:38:18.885 [canal-instance-scan-0] INFO  com.alibaba.otter.canal.deployer.CanalController - auto notify start example successful.
+2022-11-28 16:38:18.944 [canal-instance-scan-0] INFO  com.alibaba.otter.canal.deployer.CanalController - auto notify stop pol_c successful.
+2022-11-28 16:43:20.916 [main] INFO  com.alibaba.otter.canal.deployer.CanalLauncher - ## set default uncaught exception handler
+2022-11-28 16:43:20.925 [main] INFO  com.alibaba.otter.canal.deployer.CanalLauncher - ## load canal configurations
+2022-11-28 16:43:21.027 [main] WARN  org.apache.kafka.clients.producer.ProducerConfig - The configuration 'kerberos.enable' was supplied but isn't a known config.
+2022-11-28 16:43:21.028 [main] WARN  org.apache.kafka.clients.producer.ProducerConfig - The configuration 'kerberos.krb5.file' was supplied but isn't a known config.
+2022-11-28 16:43:21.028 [main] WARN  org.apache.kafka.clients.producer.ProducerConfig - The configuration 'kerberos.jaas.file' was supplied but isn't a known config.
+2022-11-28 16:43:21.030 [main] INFO  com.alibaba.otter.canal.deployer.CanalStarter - ## start the canal server.
+2022-11-28 16:43:21.192 [main] INFO  com.alibaba.otter.canal.deployer.CanalController - ## start the canal server[127.0.0.1(127.0.0.1):11111]
+2022-11-28 16:43:22.040 [main] INFO  com.alibaba.otter.canal.deployer.CanalStarter - ## the canal server is running now ......
+2022-11-28 16:43:22.202 [canal-instance-scan-0] INFO  com.alibaba.otter.canal.deployer.CanalController - auto notify start example successful.
+2022-11-28 16:43:22.246 [canal-instance-scan-0] INFO  com.alibaba.otter.canal.deployer.CanalController - auto notify stop pol_c successful.
