@@ -2,15 +2,33 @@
 
 canal 自动自动安装脚本 跨平台支持  win + linux
 
+- 在win模式下用的第三方套壳软件代理注册的服务相关如/package/canal/bin/CanalService.exe
+
+- 在linux模式下，服务级启动[开发中...]
 ## 配置
 
 ### 1, 目标机器有 node + java 的环境
 
 ### 2, 监控的mysql 开启binlog
 
-### 3, 配置的模式是kafka,需要 安装kafka 和 zookeper
+```sql
+log-bin=mysql-bin # 开启 binlog
+binlog-format=ROW # 选择 ROW 模式
+server_id=0 # 配置 MySQL replaction 需要定义，不要和 canal 的 slaveId 重复
+```
 
+### 3，新增mysql账号并赋予slave权限
 
+```sql
+CREATE USER canal IDENTIFIED BY 'canal';  
+GRANT SELECT, REPLICATION SLAVE, REPLICATION CLIENT ON *.* TO 'canal'@'%';
+-- GRANT ALL PRIVILEGES ON *.* TO 'canal'@'%' ;
+FLUSH PRIVILEGES;
+```
+
+### 4, 配置的模式是kafka,需要 安装kafka 和 zookeper  
+
+安装时配置如下
 ```json
 
 {
